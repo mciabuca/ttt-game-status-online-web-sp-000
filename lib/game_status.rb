@@ -47,7 +47,8 @@ def winner(board)
   index = won?(board)
     if index == false
       return false
-      
+    else
+      return index[0]
 end
 
 
