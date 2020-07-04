@@ -44,9 +44,8 @@ end
 
 def winner(board)
   index = []
-  
-  won?(board)
-    
+  index = won?(board)
+    if index == false
 end
 
 
