@@ -22,6 +22,9 @@ def won?(board)
   return false
 end
 
+def full?(board)
+  
+end
 
 # Define your WIN_COMBINATIONS constant
 WIN_COMBINATIONS = [
