@@ -4,6 +4,7 @@ def position_taken?(board, index)
 end
 
 def won?(board)
+  win_combination = []
   for each win_combination in 
   WIN_COMBINATIONS
   
