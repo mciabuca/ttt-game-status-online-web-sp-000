@@ -4,7 +4,7 @@ def position_taken?(board, index)
 end
 
 def won?(board)
-  for each win_combination in WIN_COMBINATIONS
+ for WIN_COMBINATIONS.each do |win_combination|
   
   win_index_1 = win_combination[0]
   win_index_2 = win_combination[1]
