@@ -49,6 +49,7 @@ def winner(board)
       return false
     else
       return board[index[0]]
+    end
 end
 
 
